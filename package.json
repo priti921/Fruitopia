@@ -1,0 +1,20 @@
+{
+  "name": "fruitopia",
+  "version": "1.0.0",
+  "description": "A fruit juice shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "git status && git add . && git commit -m \"$npm_config_first\" && git push && git status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priti921/Fruitopia.git"
+  },
+  "author": "priti roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priti921/Fruitopia/issues"
+  },
+  "homepage": "https://github.com/priti921/Fruitopia#readme"
+}
