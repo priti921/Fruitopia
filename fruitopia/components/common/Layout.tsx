@@ -11,7 +11,6 @@ const Layout: FC<PropType> = ({ children }) => {
     <div className="h-full mx-auto">
       <Navbar />
       <main className="fit">{children}</main>
-      <Footer />
     </div>
   )
 }
