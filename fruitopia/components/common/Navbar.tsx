@@ -2,6 +2,9 @@ import React, { FC } from 'react'
 import { Container } from '@components/index'
 import Link from 'next/link'
 
+import { BiSearchAlt } from 'react-icons/bi'
+import { FiShoppingBag } from 'react-icons/fi'
+
 const Navbar: FC = () => {
   const navLinks = ["home", "shop", "services", "blog", "contact"]
 
@@ -23,9 +26,9 @@ const Navbar: FC = () => {
 
         {/* user nav */}
         <nav className="flex flex-1 justify-end space-x-10 capitalize">
-          <p>login/sign up</p>
-          <p>search</p>
-          <p>bag</p>
+          <p className="px-3 whitespace-nowrap">login / signup</p>
+          <BiSearchAlt size={30} />
+          <FiShoppingBag size={25} />
         </nav>
       </div>
     </Container>
