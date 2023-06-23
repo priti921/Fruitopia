@@ -94,3 +94,25 @@ html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
 }
+
+
+.background{
+  position:absolute;
+  z-index: -1;
+  top: -55%;
+  left:0;
+  right:0;
+  height: 200vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200%;
+  background-image: url('/assets/blob.svg')
+}
+
+@media screen and (max-width: 768px){
+  .background{
+    top: -70%;
+    background-size: 400%;
+  }
+}
