@@ -29,9 +29,9 @@ const Hero = () => {
         {/* HERO MAIN PRODUCT IMAGE | CENTERED */}
         <div className='w-screen flex  flex-col justify-center items-center'>
           <div className="text-center text-white mb-8 xl:mb-8 2xl:mt-10">
-            <h1 className="italic tracking-tight text-4xl xl:text-5xl 2xl:text-7xl">your healthy life</h1>
+            <h1 className="italic tracking-widest font-bold  text-4xl xl:text-5xl 2xl:text-8xl herotext">your healthy life</h1>
             <div className='mt-1'>
-              <p className='text-xl xl:text-3xl 2xl:text-4xl font-bold'>start here</p>
+              <p className='text-xl xl:text-2xl 2xl:text-4xl font-bold text-green-600'>start here</p>
             </div>
           </div>
           <Image
