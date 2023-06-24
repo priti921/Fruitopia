@@ -26,10 +26,20 @@ const Hero = () => {
             className='w-[100px] xl:w-[230px] 2xl:w-[300px]'
           />
         </div>
+        {/* HERO BOTTOM FRUIT */}
+        <div className="absolute left-20 bottom-40  xl:left-40 xl:bottom-0 xl:ml-10">
+          <Image
+            src="/assets/berry.png"
+            alt="fruitsright1"
+            height={2000}
+            width={2000}
+            className='w-[70px] xl:w-[150px] 2xl:w-[200px]'
+          />
+        </div>
         {/* HERO MAIN PRODUCT IMAGE | CENTERED */}
         <div className='w-screen flex  flex-col justify-center items-center'>
           <div className="text-center text-white mb-8 xl:mb-8 2xl:mt-10">
-            <h1 className="italic tracking-widest font-bold  text-4xl xl:text-5xl 2xl:text-8xl herotext">your healthy life</h1>
+            <h1 className="italic tracking-tight font-bold  text-4xl xl:text-5xl 2xl:text-8xl herotext">your healthy life</h1>
             <div className='mt-1'>
               <p className='text-xl xl:text-2xl 2xl:text-4xl font-bold text-green-600'>start here</p>
             </div>
@@ -43,7 +53,8 @@ const Hero = () => {
           />
         </div>
 
-        {/* HERO BOTTOM FRUIT */}
+
+
       </div>
     </>
   )
