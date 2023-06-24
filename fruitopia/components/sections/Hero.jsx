@@ -3,8 +3,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <>
-      <div className="background"></div>
+    <section id="hero">
       {/* HERO LEFT FRUIT */}
       <div className="w-full mt-20 sm:mt-0">
         <div className='absolute left-0 mt-3 xl:mt-10 2xl:mt-40'>
@@ -52,11 +51,8 @@ const Hero = () => {
             className='xl:w-[800px] 2xl:w-[1200px]'
           />
         </div>
-
-
-
       </div>
-    </>
+    </section>
   )
 }
 

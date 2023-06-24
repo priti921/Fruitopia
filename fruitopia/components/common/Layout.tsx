@@ -10,7 +10,9 @@ const Layout: FC<PropType> = ({ children }) => {
   return (
     <div className="h-full mx-auto">
       <Navbar />
-      <main className="fit">{children}</main>
+      <main className="fit">
+        <div className="background"></div>
+        {children}</main>
     </div>
   )
 }
