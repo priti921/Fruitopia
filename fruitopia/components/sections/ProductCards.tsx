@@ -31,7 +31,7 @@ const ProductCards: FC = () => {
   return (
     <section id="productcards" className="h-full">
       {/* PRODUCT TITLE */}
-      <div className="container mx-auto sm:-mt-10 2xl:px-24 py-36 xl:py-24 2xl:py-52">
+      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-52">
         <div className='absolute -left-3 mt-[500px] xl:mt-64 2xl:mt-40'>
           j  <Image
             src="/assets/fruitleft2.png"
