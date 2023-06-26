@@ -17,7 +17,7 @@ const Story: FC = () => {
 
   return (
     <section className="" id="story">
-      <div className="container flex flex-col justify-center items-center text-center">
+      <div className="container mx-auto flex flex-col justify-center items-center text-center">
         <div className="my-5">
           <Image
             src="/assets/bottomfruit.png"
