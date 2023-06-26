@@ -31,7 +31,7 @@ const ProductCards: FC = () => {
   return (
     <section id="productcards" className="h-full">
       {/* PRODUCT TITLE */}
-      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-52">
+      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-32">
         <div className='absolute -left-3 mt-[500px] xl:mt-64 2xl:mt-40'>
           j  <Image
             src="/assets/fruitleft2.png"
@@ -53,7 +53,7 @@ const ProductCards: FC = () => {
         </div>
 
         <div className="mx-auto text-center  xl:w-1/2 flex flex-col w-full sm:mb-10">
-          <div className="flex flex-col  items-center justify-center text-4xl sm:text-6xl">
+          <div className="flex flex-col  items-center justify-center text-4xl xl:text-6xl 2xl:text-8xl">
             <span className="font-['Satisfy'] capitalize tracking-wider"> what makes us</span>
             <span className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">different</span>
           </div>
