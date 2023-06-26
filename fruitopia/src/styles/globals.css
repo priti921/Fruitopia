@@ -125,7 +125,7 @@ ul> li {
 margin: 10px 0;
 }
 
-ul> li::before{
+.list > li::before{
   content: url("/icons/checkmark.png");
   display: inline-block;
   width:1.2em;

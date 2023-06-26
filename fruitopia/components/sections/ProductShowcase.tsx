@@ -56,7 +56,7 @@ const ProductShowcase = () => {
             </div>
             <p className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider  leading-7 xl:w-3/4   my-10" >
               <span className="font-thin">At our juice company, we take pride in our unwavering dedication to organic practices. From farm to bottle, we select only the freshest organic fruits.</span>
-              <ul className="mt-12">
+              <ul className="mt-12 list">
                 <li>Pure nutrition without pesticides or additives</li>
                 <li>Support sustainable agriculture and a healthier planet.</li>
                 <li>Experience the true flavors of fresh fruits.</li>
