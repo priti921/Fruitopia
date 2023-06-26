@@ -1,5 +1,5 @@
 import React from 'react'
-import { RecipeCard } from '@components/index'
+import RecipeCard from '@components/ui/RecipeCard'
 
 const Recipes = () => {
 
