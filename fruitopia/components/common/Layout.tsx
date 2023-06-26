@@ -13,6 +13,7 @@ const Layout: FC<PropType> = ({ children }) => {
       <main className="fit">
         <div className="background"></div>
         {children}</main>
+      <Footer />
     </div>
   )
 }

@@ -5,8 +5,8 @@ import { CiFacebook, CiYoutube, CiTwitter, CiInstagram } from 'react-icons/ci'
 
 const Contact = () => {
   return (
-    <section id="contact" className=''>
-      <div className='w-3/4  mx-auto'>
+    <section id="contact" >
+      <div className='w-3/4  mx-auto relative z-10'>
         <Image
 
           src="/assets/farmers.png"
@@ -16,7 +16,9 @@ const Contact = () => {
           className='w-full'
         />
       </div>
-      <div className='flex justify-between w-3/4 mx-auto my-10 font-[sans]'>
+
+      <div className='bg-yellow-100  absolute w-screen h-[400px] z-5 -mt-28 '></div>
+      <div className='flex justify-between w-3/4 mx-auto my-10 font-[sans] relative z-10'>
         <div className='w-1/3'>
           <p className='w-3/4 text-gray-600 font-thin text-sm my-2'>Get the latest news,events & more delivered to your box</p>
           <input type='email' placeholder='Email address...' className='border-[0.1em] border-gray-400 rounded w-3/4 p-2 my-4 text-left text-sm ' />
