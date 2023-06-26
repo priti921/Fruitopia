@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Hero, ProductCards, ProductShowcase, Recipes, Story } from '@components/index'
+import { Hero, ProductCards, ProductShowcase, Recipes, Story, Contact } from '@components/index'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,6 +11,7 @@ export default function Home() {
       <ProductShowcase />
       <Recipes />
       <Story />
+      <Contact />
     </div>
   )
 }

@@ -130,3 +130,8 @@ margin: 10px 0;
   display: inline-block;
   width:1.2em;
 }
+
+.lipad > li{
+  padding: 0;
+  margin: 5px 0px;
+}
