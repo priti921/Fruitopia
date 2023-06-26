@@ -1,4 +1,4 @@
-import Card from '@components/common/Card'
+import Card from '@components/ui/Card'
 import Image from 'next/image'
 import React, { FC } from 'react'
 
