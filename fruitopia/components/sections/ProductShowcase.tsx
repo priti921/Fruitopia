@@ -6,14 +6,14 @@ const ProductShowcase = () => {
     <section id="productshowcase">
       <div className="container">
         {/* PANEL 1*/}
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row">
           <div className="relative -left-3">
             <Image
               src="/assets/productshowcase1.png"
               alt="productshowcase1"
               height={2000}
               width={2000}
-              className='w-[100px] xl:w-[1500px] 2xl:w-[2500px]'
+              className='w-[1000px] xl:w-[1500px] 2xl:w-[2500px]'
             />
           </div>
           <div className="relative xl:top-24 2xl:top-56 flex flex-col  xl:w-5/6  xl:mx-10">
@@ -34,22 +34,22 @@ const ProductShowcase = () => {
               alt="fruitright3"
               height={2000}
               width={2000}
-              className='w-[100px] xl:w-[180px] 2xl:w-[300px]'
+              className='w-[0px] xl:w-[180px] 2xl:w-[300px]'
             />
           </div>
         </div>
         {/* PANEL 2*/}
-        <div className="flex">
+        <div className="flex flex-col sm:flex-row">
           <div className="absolute -left-3 z-10">
             <Image
               src="/assets/fruitleft2.png"
               alt="fruitright3"
               height={2000}
               width={2000}
-              className='w-[100px] xl:w-[180px] 2xl:w-[200px]'
+              className='w-[0px] xl:w-[180px] 2xl:w-[200px]'
             />
           </div>
-          <div className="relative mx-auto xl:top-24 2xl:top-40 right-16 flex flex-col xl:w-1/2 ">
+          <div className="sm:relative mx-auto xl:top-24 2xl:top-40 right-16 flex flex-col xl:w-1/2 ">
             <div className="flex items-center text-4xl xl:text-4xl 2xl:text-4xl">
               <span className="font-['Satisfy']  tracking-wider">Always Organic </span>
               <span className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">Always Fresh</span>
@@ -65,25 +65,25 @@ const ProductShowcase = () => {
             </p>
           </div>
 
-          <div className="absolute -right-6">
+          <div className="sm:absolute sm:-right-6 order-1">
             <Image
               src="/assets/productshowcase2.png"
               alt="productshowcase1"
               height={2000}
               width={2000}
-              className='w-[100px] xl:w-[600px] 2xl:w-[1000px]'
+              className='w-[1000px] xl:w-[600px] 2xl:w-[1000px]'
             />
           </div>
         </div>
-        {/* PANEL 2*/}
-        <div className="flex mt-24 2xl:mt-96">
+        {/* PANEL 3*/}
+        <div className="flex flex-col sm:flex-row mt-24 2xl:mt-96">
           <div className="relative -left-3">
             <Image
               src="/assets/productshowcase3.png"
               alt="productshowcase1"
               height={4000}
               width={4000}
-              className='w-[100px] xl:w-[1500px] 2xl:w-[2500px]'
+              className='w-[1000px] xl:w-[1500px] 2xl:w-[2500px]'
             />
           </div>
           <div className="relative xl:top-24 2xl:top-56 flex flex-col  xl:w-5/6  xl:mx-10">
@@ -140,7 +140,7 @@ const ProductShowcase = () => {
               alt="fruitright3"
               height={2000}
               width={2000}
-              className='w-[100px] xl:w-[180px] 2xl:w-[300px]'
+              className='w-[0px] xl:w-[180px] 2xl:w-[300px]'
             />
           </div>
         </div>
