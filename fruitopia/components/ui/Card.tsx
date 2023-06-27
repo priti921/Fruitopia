@@ -26,7 +26,7 @@ const Card: FC<Props> = ({ name, details, link, color, icon }) => {
         />
         <h1 className="text-black text-3xl my-5 capitalize">{name}</h1>
         <p className="font-normal text-base text-slate-800 leading-7 w-3/4 mx-auto my-2">{details}</p>
-        <button className="bg-white text-sm tracking-wide px-10 py-3 my-5 font-[Belanosima] rounded-lg capitalize font-semibold">
+        <button className="bg-white text-sm tracking-wide px-10 py-3 my-5 font-[sans] rounded-lg capitalize font-thin">
           <Link href={link} >{link}</Link>
         </button>
       </div>
