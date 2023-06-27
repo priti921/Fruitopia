@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ProductShowcase = () => {
   return (
-    <section id="productshowcase">
+    <section id="products">
       <div className="container">
         {/* PANEL 1*/}
         <div className="flex flex-col sm:flex-row">

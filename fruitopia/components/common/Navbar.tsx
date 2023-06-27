@@ -8,7 +8,7 @@ import { FiShoppingBag } from 'react-icons/fi'
 import { CiMenuFries } from 'react-icons/ci'
 
 const Navbar: FC = () => {
-  const navLinks = ["home", "shop", "services", "blog", "contact"]
+  const navLinks = ["home", "shop", "products", "contact"]
 
 
   //mobileNav
@@ -28,7 +28,7 @@ const Navbar: FC = () => {
         {/* nav links */}
         <nav className="flex justify-start items-center space-x-6 text-base font-semibold capitalize tracking-wider">
           {navLinks.map((link, index) => (
-            <Link key={link} href={`/${link}`}>
+            <Link key={link} href={`#${link}`}>
               <p className={index === 0 ? "text-green-500" : ""}>{link}</p>
             </Link>
           ))}

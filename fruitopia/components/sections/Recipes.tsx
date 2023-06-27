@@ -26,7 +26,7 @@ const Recipes = () => {
     }]
 
   return (
-    <section id="recipes" className="h-full">
+    <section id="shop" className="h-full">
       {/* PRODUCT TITLE */}
       <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-32">
         <div className="mx-auto text-center  xl:w-1/2 flex flex-col w-full ">
