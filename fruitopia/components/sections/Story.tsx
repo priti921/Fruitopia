@@ -27,7 +27,7 @@ const Story: FC = () => {
             className="w-[200px]"
           />
         </div>
-        <div>
+        <div className='w-full mx-auto'>
           {/* HEADLINE */}
           <div className="flex  space-x-5 justify-center items-center text-center text-5xl mb-6">
             <p className='font-[Satisfy] tracking-tighter'>Our amaing</p>
@@ -36,7 +36,7 @@ const Story: FC = () => {
           <div className='my-5'>
             <p className='uppercase font-[Belanosima] text-gray-500 tracking-widest'>the history</p>
             {/* CAROUSEL */}
-            <Carousel showArrows={true} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay
+            <Carousel showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay
               renderIndicator={(clickHandler, isSelected, index) => (
                 <li
                   className={`inline-block mx-1 w-2 h-2 rounded-full ${isSelected ? 'bg-slate-800' : 'bg-slate-300'
@@ -49,7 +49,7 @@ const Story: FC = () => {
               )}
             >
               {carouselItems.map(item => (
-                <div key={item.id} className=" w-1/2 h-20 mx-auto mt-7 mb-16 flex justify-center items-center text-slate-600 ">
+                <div key={item.id} className="sm:w-1/2 sm:h-20 mx-5 sm:mx-auto mt-7 mb-16 flex justify-center items-center text-slate-600 ">
                   <p className="text-xl">{item.text}</p>
                 </div>
               ))}
