@@ -6,7 +6,7 @@ import { CiFacebook, CiYoutube, CiTwitter, CiInstagram } from 'react-icons/ci'
 const Contact = () => {
   return (
     <section id="contact" >
-      <div className='w-3/4  mx-auto relative z-10'>
+      <div className='sm:w-3/4  mx-auto relative z-10'>
         <Image
 
           src="/assets/farmers.png"
@@ -18,12 +18,12 @@ const Contact = () => {
       </div>
 
       <div className='bg-yellow-100  absolute w-screen h-[400px] z-5 -mt-28 '></div>
-      <div className='flex justify-between w-3/4 mx-auto my-10 font-[sans] relative z-10'>
-        <div className='w-1/3'>
-          <p className='w-3/4 text-gray-600 font-thin text-sm my-2'>Get the latest news, events & more delivered to your inbox</p>
+      <div className='flex flex-col space-y-5 sm:flex-row justify-between w-3/4 mx-auto my-10 font-[sans] relative z-10'>
+        <div className='sm:w-1/3'>
+          <p className='sm:w-3/4 text-gray-600 font-thin text-sm my-2'>Get the latest news, events & more delivered to your inbox</p>
           <input type='email' placeholder='Email address...' className='border-[0.1px] border-gray-400 rounded w-3/4 p-2 my-4 text-left text-sm ' />
         </div>
-        <div className='w-1/3 text-center text-medium  tracking-wider'>
+        <div className='sm:w-1/3 text-center text-medium  tracking-wider'>
           <div className='flex space-x-4 justify-center mb-5 '>
             <CiFacebook className='text-[40px] rounded-full bg-[#520d0c] text-white' />
             <CiYoutube className='text-[40px] rounded-full bg-[#520d0c] text-white' />
