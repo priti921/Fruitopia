@@ -63,7 +63,7 @@ const RecipeCard: FC<Props> = ({ name, price, image }) => {
         </div>
 
 
-        <p className="text-[#6fa720] my-3">${price}</p>
+        <p className="text-[#6fa720] mt-2 mb-4 font-bold text-xl">${price}</p>
         <button className="bg-[#6fa720] text-white text-sm tracking-wide px-7 py-3 rounded-medium font-bold">
           <Link href={"/"} >Add to cart</Link>
         </button>
