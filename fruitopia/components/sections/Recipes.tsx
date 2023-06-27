@@ -36,7 +36,7 @@ const Recipes = () => {
           </div>
         </div>
         {/* CARDS */}
-        <div className="flex space-x-10 mx-16 sm:my-10">
+        <div className="flex flex-col sm:flex-row sm:space-x-10 mx-16 sm:my-10">
           {
             cardData.map(({ name, price, image }) => <RecipeCard key={name} name={name} price={price} image={image} />)
           }
