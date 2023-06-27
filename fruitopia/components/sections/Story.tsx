@@ -30,7 +30,7 @@ const Story: FC = () => {
         <div className='w-full mx-auto'>
           {/* HEADLINE */}
           <div className="flex  space-x-5 justify-center items-center text-center text-5xl mb-6">
-            <p className='font-[Satisfy] tracking-tighter'>Our amaing</p>
+            <p className='font-[Satisfy] tracking-tighter'>Our amazing</p>
             <p className='font-[Belanosima] font-medium text-[#6fa720] '>story</p>
           </div>
           <div className='my-5'>

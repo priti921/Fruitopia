@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react'
-import { Container } from '@components/index'
+import { Container, LoginModal } from '@components/index'
 import Link from 'next/link'
 
 import { BiSearchAlt } from 'react-icons/bi'
@@ -17,7 +17,14 @@ const Navbar: FC = () => {
   //handleMobileNavActive
   const handleMobileNavActive = () => {
     setMobileNav(!MobileNav)
-    console.log(MobileNav)
+  }
+
+  //login/signup
+  const [loginModal, setLoginModal] = useState(false)
+
+  //handleLoginModal
+  const handleLoginModal = () => {
+    setLoginModal(!loginModal)
   }
 
   return (
@@ -28,7 +35,7 @@ const Navbar: FC = () => {
         {/* nav links */}
         <nav className="flex justify-start items-center space-x-6 text-base font-semibold capitalize tracking-wider">
           {navLinks.map((link, index) => (
-            <Link key={link} href={`#${link}`}>
+            <Link key={link} href={index === 0 ? `/` : `#${link}`}>
               <p className={index === 0 ? "text-green-500" : ""}>{link}</p>
             </Link>
           ))}
@@ -39,13 +46,22 @@ const Navbar: FC = () => {
 
         {/* user nav */}
         <nav className="flex flex-1 justify-end items-center space-x-10 capitalize">
-          <p className="px-3 whitespace-nowrap">login / signup</p>
-          <BiSearchAlt className="text-[20px] 2xl:text-[30px]" />
-          <FiShoppingBag className="text-[20px] 2xl:text-[30px]" />
+          <button className="px-3 whitespace-nowrap capitalize" onClick={handleLoginModal}>login / signup</button>
+
+          <button>
+            <BiSearchAlt className="text-[20px] 2xl:text-[30px]" />
+          </button>
+          <button>
+            <FiShoppingBag className="text-[20px] 2xl:text-[30px]" />
+          </button>
         </nav>
       </div>
 
-
+      {
+        loginModal ? <div className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm" onClick={handleLoginModal}>
+          <LoginModal />
+        </div> : null
+      }
       {/* MOBILE SCREEN NAVBAR*/}
       <div className="absolute right-0 top-0 z-10 sm:collapse">
         <div className="py-5 px-5">
@@ -95,7 +111,7 @@ const Navbar: FC = () => {
                           navLinks.map((link) => {
                             return (
                               <li key={link} className="my-5">
-                                <Link href={"${link}"} className="">{link}</Link>
+                                <Link href={link} className="">{link}</Link>
                               </li>
                             )
                           })
