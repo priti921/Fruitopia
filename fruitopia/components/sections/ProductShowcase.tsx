@@ -87,9 +87,9 @@ const ProductShowcase = () => {
             />
           </div>
           <div className="relative xl:top-24 2xl:top-56 flex flex-col  xl:w-5/6  xl:mx-10">
-            <div className="flex items-center  text-4xl xl:text-4xl 2xl:text-5xl whitespace-nowrap">
-              <span className="font-['Satisfy']  tracking-wider">Made With </span>
-              <span className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">love</span>
+            <div className="flex items-center  text-4xl xl:text-4xl 2xl:text-4xl whitespace-nowrap">
+              <span className="font-['Satisfy']  tracking-wider">Made with </span>
+              <span className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">Love</span>
             </div>
             <p className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
               <span className="font-thin"> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </span>
