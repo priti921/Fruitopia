@@ -30,11 +30,11 @@ const Story: FC = () => {
         <div>
           {/* HEADLINE */}
           <div className="flex  space-x-5 justify-center items-center text-center text-5xl mb-6">
-            <p className='font-[Satisfy] tracking-wider'>Our amaing</p>
+            <p className='font-[Satisfy] tracking-tighter'>Our amaing</p>
             <p className='font-[Belanosima] font-medium text-[#6fa720] '>story</p>
           </div>
           <div className='my-5'>
-            <p className='uppercase font-[Belanosima] text-amber-900 tracking-widest'>the history</p>
+            <p className='uppercase font-[Belanosima] text-gray-500 tracking-widest'>the history</p>
             {/* CAROUSEL */}
             <Carousel showArrows={true} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay
               renderIndicator={(clickHandler, isSelected, index) => (
