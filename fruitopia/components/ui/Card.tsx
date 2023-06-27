@@ -12,8 +12,6 @@ type Props = {
 }
 
 const Card: FC<Props> = ({ name, details, link, color, icon }) => {
-  const hexcolor = color.replace('"', '\\"').toString()
-  console.log(hexcolor)
   return (
     <div className="sm:w-1/3 mx-7 my-3 sm:my-0">
       <div className={`p-5 rounded-3xl text-center`} style={{ backgroundColor: color }}>
