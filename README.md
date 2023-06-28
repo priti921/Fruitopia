@@ -8,7 +8,7 @@
 - ~2nd panel in productshowcase, the text block is too close to image~
 - ~fix the buttons on cards~
 - ~make social media section better~
-- add button for email subcription
+- ~add button for email subcription~
 - add authentication( login/signup system )
 - add search button for dynamic search
 - usable cart
