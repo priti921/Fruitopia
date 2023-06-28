@@ -49,7 +49,7 @@ const ProductShowcase = () => {
               className='w-[0px] xl:w-[180px] 2xl:w-[200px]'
             />
           </div>
-          <div className="sm:relative mx-auto xl:top-24 2xl:top-40 right-32 flex flex-col xl:w-1/2 ">
+          <div className="sm:relative mx-auto xl:top-24 2xl:top-40 2xl:mt-40 sm:right-32 2xl:right-48 flex flex-col xl:w-1/2 ">
             <div className="flex items-center text-4xl xl:text-4xl 2xl:text-4xl">
               <p className="font-['Satisfy']  tracking-wider">Always Organic </p>
               <p className="ysa font-[Belanosima] font-medium mb-3 tracking-wide text-[#6fa720]  mx-3">Always Fresh</p>
