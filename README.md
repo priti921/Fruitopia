@@ -2,7 +2,7 @@
 
 ## TODO
 - mobile screen fix
-- title text color contrast issue
+- ~title text color contrast issue~
 - switch belosima font to something else
 - ~change price from $6.9 to $6.90( add variations of 6.49, 6.99,4.99, 5.49)~
 - 2nd panel in productshowcase, the text block is too close to image
