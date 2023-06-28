@@ -8,7 +8,7 @@ import { FiShoppingBag } from 'react-icons/fi'
 import { CiMenuFries } from 'react-icons/ci'
 
 const Navbar: FC = () => {
-  const navLinks = ["home", "shop", "products", "contact"]
+  const navLinks = ["home", "products", "shop", "contact"]
 
 
   //mobileNav
@@ -56,11 +56,15 @@ const Navbar: FC = () => {
           </button>
         </nav>
       </div>
-
       {
-        loginModal ? <div className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm" onClick={handleLoginModal}>
-          <LoginModal />
-        </div> : null
+        loginModal ? (
+          <div
+            className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm"
+            onClick={handleLoginModal}
+          >
+            <LoginModal />
+          </div>
+        ) : null
       }
       {/* MOBILE SCREEN NAVBAR*/}
       <div className="absolute right-0 top-0 z-10 sm:collapse">
