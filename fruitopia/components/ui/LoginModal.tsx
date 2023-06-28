@@ -14,13 +14,10 @@ const LoginModal: FC = () => {
                 <div className="md:mx-6 md:p-12">
                   <div className="text-center">
                     <h1 className='text-3xl mb-2 uppercase text-[#fcd62d]'>Fruitopia</h1>
-                    <h4 className="mb-12 mt-1 pb-1 text-xl font-semibold">
-                      We are The Fruitopia Team
-                    </h4>
                   </div>
 
-                  <form className='text-center'>
-                    <p className="mb-4">Please login to your account</p>
+                  <form className='text-center xl:py-8 2xl:py-20'>
+                    <p className="mb-4 py-10">Please login to your account</p>
                     <div className="relative mb-4" data-te-input-wrapper-init>
                       <input
                         type="text"
