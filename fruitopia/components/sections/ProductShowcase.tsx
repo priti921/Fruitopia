@@ -65,7 +65,7 @@ const ProductShowcase = () => {
             </div>
           </div>
 
-          <div className="sm:absolute sm:-right-6 order-1">
+          <div className="sm:absolute sm:-right-1 order-1">
             <Image
               src="/assets/productshowcase2.png"
               alt="productshowcase1"
