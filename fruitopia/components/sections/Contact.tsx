@@ -17,7 +17,7 @@ const Contact = () => {
         />
       </div>
 
-      <div className='bg-yellow-100  absolute w-screen h-[420px] z-5 -mt-28 '></div>
+      <div className='bg-yellow-100  absolute w-screen h-[470px] z-5 xl:-mt-28 2xl:-mt-36'></div>
       <div className='flex flex-col space-y-5 sm:flex-row ysa font-normal text-lg justify-between items-start w-3/4 mx-auto my-10 font-[sans] relative z-10'>
         <div className='sm:w-1/3 flex flex-col justify-center'>
           <p className='sm:w-3/4 my-2'>Get the latest news, events & more delivered to your inbox</p>
