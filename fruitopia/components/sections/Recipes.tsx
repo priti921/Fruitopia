@@ -32,7 +32,7 @@ const Recipes = () => {
         <div className="mx-auto text-center  xl:w-1/2 flex flex-col w-full ">
           <div className="flex  items-center justify-center text-xl xl:text-4xl 2xl:text-5xl">
             <span className="font-['Satisfy'] tracking-wider">Our favorite </span>
-            <span className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">recipes</span>
+            <span className="ysa font-bold mb-3 tracking-wide text-[#6fa720]  mx-3">recipes</span>
           </div>
         </div>
         {/* CARDS */}

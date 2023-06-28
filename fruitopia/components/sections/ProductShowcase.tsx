@@ -17,12 +17,12 @@ const ProductShowcase = () => {
             />
           </div>
           <div className="relative xl:top-24 2xl:top-56 flex flex-col  xl:w-5/6  xl:mx-10">
-            <div className="flex items-center  text-4xl xl:text-4xl 2xl:text-5xl whitespace-nowrap">
-              <p className="font-['Satisfy']  tracking-wider">Best products</p>
-              <p className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">best results</p>
+            <div className="flex items-center text-4xl xl:text-4xl 2xl:text-5xl whitespace-nowrap">
+              <p className="font-['Satisfy'] tracking-wider">Best products</p>
+              <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Best results</p>
             </div>
-            <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
-              <p> Our commitment to excellence shines through in every sip of our juices. </p>
+            <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-right leading-7  xl:w-5/6 2xl:w-full  my-10" >
+              <p className='my-3'> Our commitment to excellence shines through in every sip of our juices. </p>
               <p className="font-thin">
                 Each carefully crafted blend is made with the finest fruits, ensuring the best product and delivering exceptional results for your health and well-being. Experience the difference and unlock the power of nature&apos;s goodness with our top-quality offerings.
               </p>
@@ -52,11 +52,11 @@ const ProductShowcase = () => {
           <div className="sm:relative mx-auto xl:top-24 2xl:top-40 right-16 flex flex-col xl:w-1/2 ">
             <div className="flex items-center text-4xl xl:text-4xl 2xl:text-4xl">
               <p className="font-['Satisfy']  tracking-wider">Always Organic </p>
-              <p className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">Always Fresh</p>
+              <p className="ysa font-[Belanosima] font-medium mb-3 tracking-wide text-[#6fa720]  mx-3">Always Fresh</p>
             </div>
             <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider  leading-7 xl:w-3/4   my-10" >
               <p className="font-thin">At our juice company, we take pride in our unwavering dedication to organic practices. From farm to bottle, we select only the freshest organic fruits.</p>
-              <ul className="mt-12 list">
+              <ul className="mt-12 whitespace-nowrap list">
                 <li>Pure nutrition without pesticides or additives</li>
                 <li>Support sustainable agriculture and a healthier planet.</li>
                 <li>Experience the true flavors of fresh fruits.</li>
@@ -87,9 +87,9 @@ const ProductShowcase = () => {
             />
           </div>
           <div className="relative xl:top-24 2xl:top-56 flex flex-col  xl:w-5/6  xl:mx-10">
-            <div className="flex items-center  text-4xl xl:text-4xl 2xl:text-4xl whitespace-nowrap">
+            <div className="flex items-center text-4xl xl:text-4xl 2xl:text-4xl whitespace-nowrap">
               <p className="font-['Satisfy']  tracking-wider">Made with </p>
-              <p className="font-[Belanosima] font-medium tracking-wide text-[#6fa720]  mx-3">Love</p>
+              <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Love</p>
             </div>
             <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
               <p className="font-thin"> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </p>
@@ -132,7 +132,7 @@ const ProductShowcase = () => {
                 />
               </div>
             </div>
-            <p className="font-thin text-sm text-slate-500 font-[sans]">Zoltal Dul, Las Vegas</p>
+            <p className="font-bold text-base text-slate-500 ysa">Zoltal Dul, Las Vegas</p>
           </div>
           <div className="absolute right-0 mt-24 z-10">
             <Image

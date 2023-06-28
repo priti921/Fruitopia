@@ -13,7 +13,7 @@ type Props = {
 
 const Card: FC<Props> = ({ name, details, link, color, icon }) => {
   return (
-    <div className="sm:w-1/3 mx-7 my-3 sm:my-0">
+    <div id="card" className="sm:w-1/3 mx-7 my-3 sm:my-0">
       <div className={`p-5 rounded-3xl text-center`} style={{ backgroundColor: color }}>
         <Image
           src={icon}
@@ -24,7 +24,7 @@ const Card: FC<Props> = ({ name, details, link, color, icon }) => {
         />
         <h1 className="text-black text-3xl my-5 capitalize">{name}</h1>
         <p className="font-normal text-base text-slate-800 leading-7 w-3/4 mx-auto my-2">{details}</p>
-        <button className="bg-white text-sm tracking-wide px-10 py-3 my-5 font-[sans] rounded-lg capitalize font-thin">
+        <button className="bg-white text-base tracking-wide px-10 py-3 my-5  rounded-lg capitalize font-bold">
           <Link href={link} >{link}</Link>
         </button>
       </div>

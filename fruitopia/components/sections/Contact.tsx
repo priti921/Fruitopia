@@ -18,10 +18,10 @@ const Contact = () => {
       </div>
 
       <div className='bg-yellow-100  absolute w-screen h-[420px] z-5 -mt-28 '></div>
-      <div className='flex flex-col space-y-5 sm:flex-row justify-between w-3/4 mx-auto my-10 font-[sans] relative z-10'>
+      <div className='flex flex-col space-y-5 sm:flex-row ysa font-normal text-lg justify-between w-3/4 mx-auto my-10 font-[sans] relative z-10'>
         <div className='sm:w-1/3'>
-          <p className='sm:w-3/4 font-thin text-sm my-2'>Get the latest news, events & more delivered to your inbox</p>
-          <input type='email' placeholder='Email address...' className='border-[0.1px] border-gray-400 rounded w-3/4 p-2 my-4 text-left text-sm ' />
+          <p className='sm:w-3/4 my-2'>Get the latest news, events & more delivered to your inbox</p>
+          <input type='email' placeholder='Email address...' className='border-[0.1px] border-gray-400 rounded w-3/4 p-2 my-4 text-left  ' />
         </div>
         <div className='sm:w-1/3 text-center text-medium  tracking-wider'>
           <div className='flex space-x-4 justify-center p-3 mb-5 '>
@@ -30,11 +30,11 @@ const Contact = () => {
             <CiTwitter className='text-[40px] p-2 rounded-full bg-[#361615] text-white' />
             <CiInstagram className='text-[40px] p-2 rounded-full bg-[#361615] text-white' />
           </div>
-          <p className='font-thin m-1'> 184 Hopewell Junction</p>
+          <p className=' m-1'> 184 Hopewell Junction</p>
           <p className='font-bold m-1'>(+880) 196-7979-110</p>
         </div>
-        <div className='w-1/3 text-sm font-thin '>
-          <ul className='grid grid-cols-2 text-right lipad'>
+        <div className='w-1/3   '>
+          <ul className='grid grid-cols-2 text-base text-right lipad'>
             <li>Brands</li>
             <li>Gift Voucher</li>
             <li>Affiliates</li>

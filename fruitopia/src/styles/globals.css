@@ -121,6 +121,18 @@ html {
   font-family: 'Satisfy', cursive;
 }
 
+.productSubTitle {
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+#card button {
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.ysa{
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
 ul> li {
 margin: 10px 0;
 }
@@ -129,6 +141,9 @@ margin: 10px 0;
   content: url("/icons/checkmark.png");
   display: inline-block;
   width:1.2em;
+  position: relative;
+  top:2px;
+  right:5px;
 }
 
 .lipad > li{
