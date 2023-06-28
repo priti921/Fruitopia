@@ -6,22 +6,22 @@ const Recipes = () => {
   const cardData = [
     {
       name: "Sunshine Splash",
-      price: "6.9",
+      price: "6.99",
       image: "/assets/productbox1.png"
     },
     {
       name: "Mango Tango Twist",
-      price: "6.9",
+      price: "6.49",
       image: "/assets/productbox2.png"
     },
     {
       name: "Berry Blaze Burst",
-      price: "6.9",
+      price: "4.99",
       image: "/assets/productbox3.png"
     },
     {
       name: "Crimson Crush",
-      price: "6.9",
+      price: "5.49",
       image: "/assets/productbox4.png"
     }]
 
