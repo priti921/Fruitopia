@@ -9,6 +9,7 @@
 - ~fix the buttons on cards~
 - ~make social media section better~
 - ~add button for email subcription~
+- ~fixed padding in login modal~
 - add authentication( login/signup system )
 - add search button for dynamic search
 - usable cart
