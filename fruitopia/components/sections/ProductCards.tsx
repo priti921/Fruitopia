@@ -9,6 +9,7 @@ const ProductCards: FC = () => {
       name: "organic",
       details: "Experience the refreshing taste of our carefully selected, pesticide-free fruits. Each sip celebrates nature's goodness, delivering pure nourishment to your body and soul",
       link: "learn more",
+      linkName: "#story",
       color: "#ffe7ad",
       icon: "/icons/orange.png"
     },
@@ -16,12 +17,14 @@ const ProductCards: FC = () => {
       name: "natural",
       details: "Indulge in the true essence of fruits with our vibrant and additive-free juices. We preserve the integrity of each fruit, providing a genuine and invigorating taste experience.",
       link: "view products",
+      linkName: "#products",
       color: "#bafca9",
       icon: "/icons/cherries.png"
     }, {
       name: "healthy",
       details: "Embrace a healthier lifestyle with our juices. Our balanced recipes enhance vitality, support natural defenses, and provide a delicious way to boost your well-being",
       link: "contact us",
+      linkName: "#contact",
       color: "#facabb",
       icon: "/icons/strawberry-juice.png"
     }
@@ -61,7 +64,7 @@ const ProductCards: FC = () => {
         {/* CARDS */}
         <div className="flex flex-col sm:flex-row sm:mx-20 sm:my-20">
           {
-            cardData.map(({ name, details, link, color, icon }) => <Card key={name} name={name} details={details} link={link} color={color} icon={icon} />)
+            cardData.map(({ name, details, link, linkName, color, icon }) => <Card key={name} name={name} details={details} link={link} linkName={linkName} color={color} icon={icon} />)
           }
         </div>
       </div>
