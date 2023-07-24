@@ -21,7 +21,7 @@ const ProductShowcase = () => {
               <p className="font-['Satisfy'] tracking-wider">Best products</p>
               <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Best results</p>
             </div>
-            <div className=" xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-right leading-7  xl:w-5/6 2xl:w-full  my-10 font-Ysabeau" >
+            <div className=" xl:text-base 2xl:text-xl text-slate-800 tracking-wider leading-7  xl:w-5/6 2xl:w-full  my-10 font-Ysabeau" >
               <p className="my-3 font-thin"> Our commitment to excellence shines through in every sip of our juices. </p>
               <p className="font-normal">
                 Each carefully crafted blend is made with the finest fruits, ensuring the best product and delivering exceptional results for your health and well-being. Experience the difference and unlock the power of nature&apos;s goodness with our top-quality offerings.
