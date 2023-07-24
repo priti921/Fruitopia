@@ -1,13 +1,17 @@
 import React, { FC, useState } from 'react'
 import { Container, LoginModal } from '@components/index'
+import { useSession, signIn, signOut } from 'next-auth/react'
 import Link from 'next/link'
+
 
 import { BiSearchAlt } from 'react-icons/bi'
 import { FiShoppingBag } from 'react-icons/fi'
-
 import { CiMenuFries } from 'react-icons/ci'
 
 const Navbar: FC = () => {
+  const { data: session } = useSession();
+
+
   const navLinks = ["home", "products", "shop", "contact"]
 
 
@@ -46,7 +50,21 @@ const Navbar: FC = () => {
 
         {/* user nav */}
         <nav className="flex flex-1 justify-end items-center space-x-10 capitalize">
-          <button className="px-3 whitespace-nowrap capitalize" onClick={handleLoginModal}>login / signup</button>
+          <div className="px-3 whitespace-nowrap capitalize">
+            {
+              session ? (
+                <div>
+                  <p>Hi, {session.user?.email}</p>
+                  <button onClick={() => signOut()}>Sign Out </button>
+                </div>
+              ) :
+                (
+                  <button onClick={handleLoginModal}>
+                    login / signup
+                  </button>
+                )
+            }
+          </div>
 
           <button>
             <BiSearchAlt className="text-[20px] 2xl:text-[30px]" />
@@ -55,14 +73,15 @@ const Navbar: FC = () => {
             <FiShoppingBag className="text-[20px] 2xl:text-[30px]" />
           </button>
         </nav>
-      </div>
+      </div >
+      {/* SHOW LOGIN MODAL ON LOGIN/SIGNUP BUTTON CLICK*/}
       {
         loginModal ? (
           <div
             className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm"
             onClick={handleLoginModal}
           >
-            <LoginModal />
+            <LoginModal signIn={signIn} />
           </div>
         ) : null
       }

@@ -1,17 +1,20 @@
-import '@/styles/globals.css'
+import type { AppProps as NextAppProps } from 'next/app'
+import { SessionProvider } from 'next-auth/react'
 import { Layout } from '@components/index'
-import type { AppProps } from 'next/app'
+import '@/styles/globals.css'
 
-//web page layout
+interface AppProps extends NextAppProps {
+  session: any
+}
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps, session }: AppProps) {
+
   return (
-    <div className="">
+    <SessionProvider session={session}>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </div>
-
-
+    </SessionProvider>
   )
+
 }
