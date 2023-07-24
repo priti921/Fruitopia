@@ -24,7 +24,7 @@ const Card: FC<Props> = ({ name, details, link, linkName, color, icon }) => {
           className="w-[85px] mx-auto my-3"
         />
         <h1 className="text-black text-3xl my-5 capitalize">{name}</h1>
-        <p className="font-normal text-base text-slate-800 leading-7 w-3/4 mx-auto my-2">{details}</p>
+        <p className="font-Ysabeau font-semibold text-base text-slate-800 leading-7 w-3/4 mx-auto my-2">{details}</p>
         <button className="bg-white text-base tracking-wide px-10 py-3 my-5  rounded-lg capitalize font-bold">
           <Link href={linkName} >{link}</Link>
         </button>

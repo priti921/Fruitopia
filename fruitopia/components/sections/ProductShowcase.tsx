@@ -21,9 +21,9 @@ const ProductShowcase = () => {
               <p className="font-['Satisfy'] tracking-wider">Best products</p>
               <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Best results</p>
             </div>
-            <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-right leading-7  xl:w-5/6 2xl:w-full  my-10" >
-              <p className='my-3'> Our commitment to excellence shines through in every sip of our juices. </p>
-              <p className="font-thin">
+            <div className=" xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-right leading-7  xl:w-5/6 2xl:w-full  my-10 font-Ysabeau" >
+              <p className="my-3 font-thin"> Our commitment to excellence shines through in every sip of our juices. </p>
+              <p className="font-normal">
                 Each carefully crafted blend is made with the finest fruits, ensuring the best product and delivering exceptional results for your health and well-being. Experience the difference and unlock the power of nature&apos;s goodness with our top-quality offerings.
               </p>
             </div>
@@ -54,7 +54,7 @@ const ProductShowcase = () => {
               <p className="font-['Satisfy']  tracking-wider">Always Organic </p>
               <p className="ysa font-[Belanosima] font-medium mb-3 tracking-wide text-[#6fa720]  mx-3">Always Fresh</p>
             </div>
-            <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider  leading-7 xl:w-3/4   my-10" >
+            <div className="font-normal font-Ysabeau xl:text-base 2xl:text-xl text-slate-800 tracking-wider  leading-7 xl:w-3/4   my-10" >
               <p className="font-thin">At our juice company, we take pride in our unwavering dedication to organic practices. From farm to bottle, we select only the freshest organic fruits.</p>
               <ul className="mt-12 whitespace-nowrap list">
                 <li>Pure nutrition without pesticides or additives</li>
@@ -92,7 +92,7 @@ const ProductShowcase = () => {
               <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Love</p>
             </div>
             <div className="font-normal xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
-              <p className="font-thin"> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </p>
+              <p className="font-Ysabeau"> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </p>
               <h1 className="mt-12 xl:text-2xl 2xl:text-3xl font-[Satisfy]">&quot; The results have been amazing for me and many of my clients. &quot;</h1>
               <div className="flex space-x-1 mt-5">
                 <Image

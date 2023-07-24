@@ -34,7 +34,7 @@ const ProductCards: FC = () => {
   return (
     <section id="productcards" className="h-full">
       {/* PRODUCT TITLE */}
-      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-32">
+      <div className="container mx-auto sm:-mt-16 2xl:px-24 pt-36 xl:pt-24 2xl:pt-32">
         <div className='absolute -left-3 mt-[500px] xl:mt-64 2xl:mt-40'>
           <Image
             src="/assets/fruitleft2.png"
@@ -57,12 +57,12 @@ const ProductCards: FC = () => {
         <div className="mx-auto text-center  xl:w-1/2 flex flex-col w-full sm:mb-10">
           <div className="flex flex-col  items-center justify-center text-4xl xl:text-6xl 2xl:text-8xl">
             <h1 className="font-[Satisfy] capitalize tracking-wider"> what makes us</h1>
-            <p className="productSubTitle font-medium tracking-wide text-[#6fa720]  mx-3">different</p>
+            <p className="font-Ysabeau font-medium tracking-wide text-[#6fa720]  mx-3">different</p>
           </div>
           <p className="text-sm sm:text-base font-bold w-3/4 sm:w-1/2 mx-auto my-5 text-slate-800 tracking-wider capitalize">Fresh, sustainable, customer-centric: Redefining the juice experience.</p>
         </div>
         {/* CARDS */}
-        <div className="flex flex-col sm:flex-row sm:mx-20 sm:my-20">
+        <div className="flex flex-col sm:flex-row sm:mx-20 sm:my-24">
           {
             cardData.map(({ name, details, link, linkName, color, icon }) => <Card key={name} name={name} details={details} link={link} linkName={linkName} color={color} icon={icon} />)
           }
