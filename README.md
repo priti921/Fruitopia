@@ -10,7 +10,9 @@
 - ~make social media section better~
 - ~add button for email subcription~
 - ~fixed padding in login modal~
-- add authentication( login/signup system )
+- ~google OAuth signin(NextAuth)
+- add Credintials login system(NextAuth)
+- add Credintials Register System(Nextauth)
 - add search button for dynamic search
 - usable cart
 - add to cart button function
