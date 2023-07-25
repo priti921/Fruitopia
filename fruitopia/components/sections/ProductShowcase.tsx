@@ -56,7 +56,7 @@ const ProductShowcase = () => {
             </div>
             <div className="font-normal font-Ysabeau  xl:text-base 2xl:text-xl text-slate-800 tracking-wider  leading-7 xl:w-3/4   my-10 " >
               <p className="font-[Satisfy] text-2xl 2xl:text-3xl text-center sm:text-left">At our juice company, we take pride in our unwavering dedication to organic practices. From farm to bottle, we select only the freshest organic fruits.</p>
-              <ul className="mt-12 sm:whitespace-nowrap list">
+              <ul className="mt-12 mx-4 sm:mx-0  text-xl sm:whitespace-nowrap list">
                 <li>Pure nutrition without pesticides or additives</li>
                 <li>Support sustainable agriculture and a healthier planet.</li>
                 <li>Experience the true flavors of fresh fruits.</li>
@@ -65,7 +65,7 @@ const ProductShowcase = () => {
             </div>
           </div>
 
-          <div className="sm:absolute sm:-right-1 order-1">
+          <div className="sm:absolute relative -right-2 sm:-right-1 order-1">
             <Image
               src="/assets/productshowcase2.png"
               alt="productshowcase1"
@@ -91,10 +91,10 @@ const ProductShowcase = () => {
               <p className="font-['Satisfy']  tracking-wider">Made with </p>
               <p className="ysa font-medium tracking-wide mb-3 text-[#6fa720]  mx-3">Love</p>
             </div>
-            <div className="font-normal text-center sm:text-left xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
-              <p className="font-Ysabeau"> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </p>
+            <div className="font-normal text-center text-xl mx-4 sm:mx-0 sm:text-left xl:text-base 2xl:text-xl text-slate-800 tracking-wider text-left leading-7  xl:w-4/5 2xl:w-full  my-10" >
+              <p className="font-Ysabeau "> Our juices are more than just beverages; they are a labor of love. Each bottle is crafted with utmost care and attention to detail. </p>
               <h1 className="mt-12 xl:text-2xl 2xl:text-3xl font-[Satisfy]">&quot; The results have been amazing for me and many of my clients. &quot;</h1>
-              <div className="flex space-x-1 mt-5">
+              <div className="flex space-x-1 mt-5 justify-center sm:justify-start">
                 <Image
                   src="/icons/star.png"
                   alt="stars"
@@ -132,7 +132,7 @@ const ProductShowcase = () => {
                 />
               </div>
             </div>
-            <p className="font-bold text-base text-slate-500 ysa">Zoltal Dul, Las Vegas</p>
+            <p className="font-bold text-base text-slate-500 text-center ysa">Zoltal Dul, Las Vegas</p>
           </div>
           <div className="absolute right-0 mt-24 z-10">
             <Image
