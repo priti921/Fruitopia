@@ -2,7 +2,17 @@
 
 ## TODO
 
-- [ ] mobile screen fix
+- [ ] mobile screen fix: menu bar stop propagation
+- [ ] mobile screen fix: menu bar valid links 
+- [ ] mobile screen fix: menu bar better styling
+- [ ] mobile screen fix: productshowcase title
+- [ ] mobile screen fix: fix strawberry position
+- [ ] mobile screen fix: recipe title size
+- [ ] mobile screen fix: story ttile 
+- [ ] mobile screen fix: footer section position
+- [ ] Add newsletter functionality
+- [ ] edit showcase pictures 
+- [ ] fix element alignments
 - [ ] add search button for dynamic search
 - [ ] usable cart 
 - [ ] add to cart button function

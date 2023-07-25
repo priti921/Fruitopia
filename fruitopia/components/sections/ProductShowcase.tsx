@@ -65,7 +65,7 @@ const ProductShowcase = () => {
             </div>
           </div>
 
-          <div className="sm:absolute relative -right-2 sm:-right-1 order-1">
+          <div className="sm:absolute sm:-right-1 order-1">
             <Image
               src="/assets/productshowcase2.png"
               alt="productshowcase1"
@@ -132,7 +132,7 @@ const ProductShowcase = () => {
                 />
               </div>
             </div>
-            <p className="font-bold text-base text-slate-500 text-center ysa">Zoltal Dul, Las Vegas</p>
+            <p className="font-bold text-base text-slate-500 text-center sm:text-left ysa">Zoltal Dul, Las Vegas</p>
           </div>
           <div className="absolute right-0 mt-24 z-10">
             <Image
