@@ -36,7 +36,7 @@ const Story: FC = () => {
           <div className='my-5'>
             <p className='uppercase ysa font-bold text-[#361615] tracking-widest'>the history</p>
             {/* CAROUSEL */}
-            <Carousel showArrows={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay
+            <Carousel showThumbs={false} showArrows={false} showStatus={false} showIndicators={true} infiniteLoop={true} autoPlay
               renderIndicator={(clickHandler, isSelected, index) => (
                 <li
                   className={`inline-block mx-1 w-2 h-2 rounded-full ${isSelected ? 'bg-slate-800' : 'bg-slate-300'
