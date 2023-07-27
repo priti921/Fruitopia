@@ -29,7 +29,7 @@ const Story: FC = () => {
         </div>
         <div className='w-full mx-auto'>
           {/* HEADLINE */}
-          <div className="flex  space-x-5 justify-center items-center text-center text-5xl mb-6">
+          <div className="flex  space-x-5 justify-center items-center text-center text-4xl  2xl:text-5xl flex-col sm:flex-row mb-6">
             <p className='font-[Satisfy] tracking-tighter'>Our amazing</p>
             <p className='ysa font-bold mb-3 text-[#6fa720] '>story</p>
           </div>
@@ -59,7 +59,7 @@ const Story: FC = () => {
         </div>
       </div>
 
-    </section>
+    </section >
   )
 }
 
