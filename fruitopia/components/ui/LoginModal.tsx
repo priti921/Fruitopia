@@ -4,7 +4,7 @@ import { FcGoogle } from 'react-icons/fc'
 
 const LoginModal: FC<any> = ({ signIn }) => {
   return (
-    <div className="container relative z-100 h-full  mx-auto  p-10 ">
+    <div className="container relative z-100 h-full  mx-auto p-5 sm:p-10 ">
       <div
         className="flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200" >
         <div className="w-full" onClick={(event) => event.stopPropagation()}>
@@ -13,12 +13,12 @@ const LoginModal: FC<any> = ({ signIn }) => {
             <div className="g-0 lg:flex lg:flex-wrap">
               <div className="px-4 md:px-0 lg:w-6/12">
                 <div className="md:mx-6 md:p-12">
-                  <div className="text-center">
-                    <h1 className='text-3xl mb-2 uppercase text-[#fcd62d]'>Fruitopia</h1>
+                  <div className="text-center sm:mb-2 pt-10 sm:pt-0">
+                    <h1 className="text-3xl sm:text-5xl  uppercase text-[#fcd62d]">Fruitopia</h1>
                   </div>
 
-                  <form className='text-center xl:py-8 2xl:py-20'>
-                    <p className="mb-4 py-10">Please login to your account</p>
+                  <form className="text-center sm:py-0 xl:py-8 2xl:py-20">
+                    <p className="py-5 sm:py-10">Please login to your account</p>
                     <button
                       className="mb-3 flex justify-center items-center w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-black shadow-[0_4px_9px_-4px_rgba(0,0,0,0.2)] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)] focus:outline-none focus:ring-0 active:shadow-[0_8px_9px_-4px_rgba(0,0,0,0.1),0_4px_18px_0_rgba(0,0,0,0.2)]"
                       type="button"
@@ -32,7 +32,7 @@ const LoginModal: FC<any> = ({ signIn }) => {
                       <FcGoogle className="text-[20px] mx-3" />
                       <p>Sign in with Google</p>
                     </button>
-                    <div className="relative mb-4" data-te-input-wrapper-init>
+                    <div className="relative mb-4 mt-10 sm:mt-0" data-te-input-wrapper-init>
                       <input
                         type="text"
                         className="peer block min-h-[auto] w-full   border-b bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
