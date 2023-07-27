@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] fix element alignments
 - [ ] add search button for dynamic search
 - [ ] usable cart 
 - [ ] add to cart button function
@@ -11,6 +10,7 @@
 
 ## Completed
 
+- [x] fix element alignments
 - [x] edit showcase pictures 
 - [x] Add newsletter functionality
 - [x] mobile screen fix: footer section alignments
