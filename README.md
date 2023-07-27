@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] mobile screen fix: recipe title size
 - [ ] mobile screen fix: story ttile 
 - [ ] mobile screen fix: footer section position
 - [ ] Add newsletter functionality
@@ -16,6 +15,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: recipe title size
 - [x] mobile screen fix: fruit alignments
 - [x] mobile screen fix: productshowcase title
 - [x] mobile screen fix: add login/signup button on mobile navbar
