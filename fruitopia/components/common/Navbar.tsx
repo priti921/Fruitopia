@@ -111,7 +111,7 @@ const Navbar: FC = () => {
                           navLinks.map((link, index) => {
                             return (
                               <li key={link} className="my-5 ">
-                                <Link className="capitalize" href={index === 0 ? `/` : `#${link}`}  >{link}</Link>
+                                <Link onClick={handleMobileNavActive} className="capitalize" href={index === 0 ? `/` : `#${link}`}  >{link}</Link>
                               </li>
                             )
                           })
