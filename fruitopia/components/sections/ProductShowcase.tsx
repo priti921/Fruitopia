@@ -76,7 +76,7 @@ const ProductShowcase = () => {
           </div>
         </div>
         {/* PANEL 3*/}
-        <div className="flex flex-col sm:flex-row mt-5 2xl:mt-96">
+        <div className="flex flex-col sm:flex-row mt-5 2xl:mt-60">
           <div className="relative -left-3">
             <Image
               src="/assets/productshowcase3.png"
