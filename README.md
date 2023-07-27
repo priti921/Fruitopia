@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] mobile screen fix: menu bar stop propagation
 - [ ] mobile screen fix: menu bar valid links 
 - [ ] mobile screen fix: menu bar better styling
 - [ ] mobile screen fix: productshowcase title
@@ -21,6 +20,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: menu bar stop propagation
 - [x] title text color contrast issue
 - [x] switch belosima font to something else
 - [x] change price from $6.9 to $6.90( add variations of 6.49, 6.99,4.99, 5.49)

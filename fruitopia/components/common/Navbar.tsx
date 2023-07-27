@@ -98,11 +98,10 @@ const Navbar: FC = () => {
             MobileNav ?
               (<>
 
-                <div className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm" >
+                <div className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm" onClick={handleMobileNavActive} >
                   {/* EXPERIMENTAL NAV CLOSE ON CLILCK*/}
-                  <div className="fixed inset-0 z-50 " onClick={handleMobileNavActive} />
-                  <div className="fixed inset-x-10 top-10 z-100  bg-white p-8">
-                    <div className="flex flex-row-reverse items-center justify-between tracking-wider">
+                  <div className="fixed inset-x-10 top-10 z-100  bg-white p-8" onClick={(event) => event.stopPropagation()}>
+                    <div className="flex flex-row-reverse items-center justify-between tracking-wider"  >
                       <button
                         className="m-1 p-1"
                         type="button"
