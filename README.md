@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] mobile screen fix: footer section position
 - [ ] Add newsletter functionality
 - [ ] edit showcase pictures 
 - [ ] fix element alignments
@@ -14,6 +13,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: footer section alignments
 - [x] mobile screen fix: story title 
 - [x] mobile screen fix: recipe title size
 - [x] mobile screen fix: fruit alignments
