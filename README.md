@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] Add newsletter functionality
 - [ ] edit showcase pictures 
 - [ ] fix element alignments
 - [ ] add search button for dynamic search
@@ -13,6 +12,7 @@
 
 ## Completed
 
+- [x] Add newsletter functionality
 - [x] mobile screen fix: footer section alignments
 - [x] mobile screen fix: story title 
 - [x] mobile screen fix: recipe title size
