@@ -86,7 +86,11 @@ const Navbar: FC = () => {
         ) : null
       }
       {/* MOBILE SCREEN NAVBAR*/}
-      <div className="absolute right-0 top-0 z-10 sm:collapse">
+      <div className="absolute right-0 top-0 z-10 sm:collapse flex items-center">
+        {
+          session ? (
+            <p>Hi, {session?.user?.email}</p>) : null
+        }
         <div className="py-5 px-5">
           <button className="w-10"
             onClick={handleMobileNavActive}
@@ -102,16 +106,31 @@ const Navbar: FC = () => {
                   {/* EXPERIMENTAL NAV CLOSE ON CLILCK*/}
                   <div className="fixed inset-x-10 top-10 z-100  bg-white p-8" onClick={(event) => event.stopPropagation()}>
                     <nav className="mt-6">
-                      <ul className="text-xl text-center  tracking-widest text-zinc-800">
+                      <ul className="text-xl text-center  tracking-widest text-zinc-800 ysa" >
                         {
                           navLinks.map((link, index) => {
                             return (
-                              <li key={link} className="my-5 ysa">
-                                <Link className="capitalize" href={index === 0 ? `/` : `#${link}`} onClick={handleMobileNavActive} >{link}</Link>
+                              <li key={link} className="my-5 ">
+                                <Link className="capitalize" href={index === 0 ? `/` : `#${link}`}  >{link}</Link>
                               </li>
                             )
                           })
                         }
+                        <div className="py-1 whitespace-nowrap capitalize rounded bg-black text-white bg-neutral-800" onClick={handleMobileNavActive}>
+                          {
+                            session ? (
+                              <div>
+                                <button onClick={() => signOut()}>Sign Out </button>
+                              </div>
+                            ) :
+                              (
+                                <button onClick={handleLoginModal}>
+                                  Login / Signup
+                                </button>
+                              )
+                          }
+                        </div>
+
                       </ul>
                     </nav>
                   </div>
