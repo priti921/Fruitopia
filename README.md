@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] edit showcase pictures 
 - [ ] fix element alignments
 - [ ] add search button for dynamic search
 - [ ] usable cart 
@@ -12,6 +11,7 @@
 
 ## Completed
 
+- [x] edit showcase pictures 
 - [x] Add newsletter functionality
 - [x] mobile screen fix: footer section alignments
 - [x] mobile screen fix: story title 

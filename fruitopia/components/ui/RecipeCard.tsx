@@ -13,7 +13,7 @@ type Props = {
 
 const RecipeCard: FC<Props> = ({ name, price, image }) => {
   return (
-    <div className="sm:my-0">
+    <div className="my-5 sm:my-0">
       <Image
         src={image}
         alt={name}

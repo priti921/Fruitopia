@@ -28,7 +28,7 @@ const Recipes = () => {
   return (
     <section id="shop" className="h-full">
       {/* PRODUCT TITLE */}
-      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-36 xl:pt-24 2xl:pt-32">
+      <div className="container mx-auto sm:-mt-10 2xl:px-24 pt-16 xl:pt-24 2xl:pt-32">
         <div className="mx-auto text-center  xl:w-1/2 flex flex-col w-full ">
           <div className="flex  items-center justify-center text-4xl  2xl:text-5xl flex-col sm:flex-row">
             <span className="font-['Satisfy'] tracking-wider">Our favorite </span>
