@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero">
       {/* HERO LEFT FRUIT */}
-      <div className="w-full mt-20 sm:mt-0">
+      <div className="w-full mt-10 sm:mt-0">
         <div className='absolute left-0 mt-3 xl:mt-10 2xl:mt-40'>
           j  <Image
             src="/assets/fruitleft1.png"
