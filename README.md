@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] mobile screen fix: menu bar better styling
+- [ ] mobile screen fix: add login/signup button on mobile navbar
 - [ ] mobile screen fix: productshowcase title
 - [ ] mobile screen fix: fix strawberry position
 - [ ] mobile screen fix: recipe title size
@@ -19,6 +19,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: menu bar better styling
 - [x] mobile screen fix: menu bar valid links and close menu on click
 - [x] mobile screen fix: menu bar stop propagation
 - [x] title text color contrast issue

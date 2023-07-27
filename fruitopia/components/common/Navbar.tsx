@@ -101,34 +101,13 @@ const Navbar: FC = () => {
                 <div className="fixed inset-0 z-40 bg-zinc-800/40 backdrop-blur-sm" onClick={handleMobileNavActive} >
                   {/* EXPERIMENTAL NAV CLOSE ON CLILCK*/}
                   <div className="fixed inset-x-10 top-10 z-100  bg-white p-8" onClick={(event) => event.stopPropagation()}>
-                    <div className="flex flex-row-reverse items-center justify-between tracking-wider"  >
-                      <button
-                        className="m-1 p-1"
-                        type="button"
-                        onClick={handleMobileNavActive}
-                      >
-                        <svg
-                          viewBox="0 0 24 24"
-                          className="h-10 w-10 text-zinc-500 dark:text-zinc-400"
-                        >
-                          <path
-                            d="m17.25 6.75-10.5 10.5M6.75 6.75l10.5 10.5"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      </button>
-                    </div>
                     <nav className="mt-6">
                       <ul className="text-xl text-center  tracking-widest text-zinc-800">
                         {
                           navLinks.map((link, index) => {
                             return (
-                              <li key={link} className="my-5">
-                                <Link href={index === 0 ? `/` : `#${link}`} onClick={handleMobileNavActive} >{link}</Link>
+                              <li key={link} className="my-5 ysa">
+                                <Link className="capitalize" href={index === 0 ? `/` : `#${link}`} onClick={handleMobileNavActive} >{link}</Link>
                               </li>
                             )
                           })
