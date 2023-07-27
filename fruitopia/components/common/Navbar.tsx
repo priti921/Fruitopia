@@ -121,11 +121,6 @@ const Navbar: FC = () => {
                           ></path>
                         </svg>
                       </button>
-                      {/*
-                        <h2 className="text-xl font-medium text-zinc-600 ml-10">
-                        Navigation
-                      </h2>
-                     */}
                     </div>
                     <nav className="mt-6">
                       <ul className="text-xl text-center  tracking-widest text-zinc-800">
