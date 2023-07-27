@@ -125,10 +125,10 @@ const Navbar: FC = () => {
                     <nav className="mt-6">
                       <ul className="text-xl text-center  tracking-widest text-zinc-800">
                         {
-                          navLinks.map((link) => {
+                          navLinks.map((link, index) => {
                             return (
                               <li key={link} className="my-5">
-                                <Link href={link} className="">{link}</Link>
+                                <Link href={index === 0 ? `/` : `#${link}`} onClick={handleMobileNavActive} >{link}</Link>
                               </li>
                             )
                           })

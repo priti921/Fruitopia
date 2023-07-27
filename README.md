@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] mobile screen fix: menu bar valid links 
 - [ ] mobile screen fix: menu bar better styling
 - [ ] mobile screen fix: productshowcase title
 - [ ] mobile screen fix: fix strawberry position
@@ -20,6 +19,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: menu bar valid links and close menu on click
 - [x] mobile screen fix: menu bar stop propagation
 - [x] title text color contrast issue
 - [x] switch belosima font to something else
