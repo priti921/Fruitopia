@@ -2,7 +2,6 @@
 
 ## TODO
 
-- [ ] mobile screen fix: fix strawberry position
 - [ ] mobile screen fix: recipe title size
 - [ ] mobile screen fix: story ttile 
 - [ ] mobile screen fix: footer section position
@@ -17,6 +16,7 @@
 
 ## Completed
 
+- [x] mobile screen fix: fruit alignments
 - [x] mobile screen fix: productshowcase title
 - [x] mobile screen fix: add login/signup button on mobile navbar
 - [x] mobile screen fix: menu bar better styling

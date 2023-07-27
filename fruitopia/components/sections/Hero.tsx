@@ -26,7 +26,7 @@ const Hero = () => {
           />
         </div>
         {/* HERO BOTTOM FRUIT */}
-        <div className="absolute left-20 bottom-40  xl:left-40 xl:bottom-0 xl:ml-10">
+        <div className="absolute left-5 bottom-44  xl:left-40 xl:bottom-0 xl:ml-10">
           <Image
             src="/assets/berry.png"
             alt="fruitsright1"
