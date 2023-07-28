@@ -6,7 +6,7 @@ import { CiFacebook, CiYoutube, CiTwitter, CiInstagram } from 'react-icons/ci'
 
 const Contact = () => {
   const [state, setState] = useState({ email: "", isLoading: false, error: "" })
-  const { email, isLoading, error } = state
+  const { email } = state
   const [emailSuccess, setEmailSuccess] = useState(false)
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -27,6 +27,7 @@ const Contact = () => {
 
     try {
       await sendContactFrom(email).then(() => {
+        setEmailSuccess(true)
         setState((prev) => ({
           ...prev,
           isLoading: false,
@@ -40,7 +41,6 @@ const Contact = () => {
       }))
     }
 
-    setEmailSuccess(true)
   }
 
   useEffect(() => {
