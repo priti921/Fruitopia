@@ -10,6 +10,7 @@
 
 ## Completed
 
+- [x] fixed chrome screen appearing half the width issue
 - [x] fix element alignments
 - [x] edit showcase pictures 
 - [x] Add newsletter functionality

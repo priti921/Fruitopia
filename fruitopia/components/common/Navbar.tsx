@@ -34,7 +34,7 @@ const Navbar: FC = () => {
   return (
     <Container>
       {/* PC/LAPTOP SCREEN NAVBAR */}
-      <div className="flex flex-row xl:mx-44 2xl:mx-72 md:py-10 items-center  antialiased collapse sm:visible">
+      <div className="flex flex-row xl:mx-44 2xl:mx-72 md:py-10 items-center  antialiased hidden sm:flex">
 
         {/* nav links */}
         <nav className="flex justify-start items-center space-x-6 text-base font-semibold capitalize tracking-wider">

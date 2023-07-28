@@ -40,7 +40,6 @@ const Contact = () => {
         error: error.message,
       }))
     }
-
   }
 
   useEffect(() => {
